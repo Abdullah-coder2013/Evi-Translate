@@ -12,6 +12,7 @@ from deep_translator import GoogleTranslator
 
 class Ui_EviTranslate(object):
     def setupUi(self, EviTranslate):
+        EviTranslate.setWindowFlags(QtCore.Qt.WindowType.CustomizeWindowHint | QtCore.Qt.WindowType.WindowCloseButtonHint | QtCore.Qt.WindowType.WindowMinimizeButtonHint)
         EviTranslate.setObjectName("EviTranslate")
         EviTranslate.resize(712, 440)
         EviTranslate.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.ArrowCursor))
